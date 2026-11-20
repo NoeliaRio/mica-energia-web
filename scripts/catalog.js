@@ -1,4 +1,5 @@
-import {services,config} from './data/services.js';
+(() => {
+const {services,config} = window.MicaCatalog;
 const grid=document.querySelector('#services'), filters=document.querySelector('#filters'), results=document.querySelector('#results');
 function element(tag,text,className){const node=document.createElement(tag);if(text)node.textContent=text;if(className)node.className=className;return node;}
 function contact(service){const link=element('a',config.whatsapp?'Consultar por WhatsApp':'Consultar por Instagram');link.href=config.whatsapp?`https://wa.me/${config.whatsapp}?text=${encodeURIComponent(`Hola Mica, quiero consultar por ${service.name}.`)}`:config.instagram;return link;}
@@ -12,3 +13,4 @@ function card(service){
 function render(category){const visible=category==='Todas'?services:services.filter(item=>item.category===category);grid.replaceChildren(...visible.map(card));results.textContent=`${visible.length} ${visible.length===1?'sesión para explorar':'sesiones para explorar'}`;for(const button of filters.children)button.setAttribute('aria-pressed',String(button.textContent===category));}
 for(const category of ['Todas',...new Set(services.map(item=>item.category))]){const button=element('button',category);button.type='button';button.setAttribute('aria-controls','services');button.addEventListener('click',()=>render(category));filters.append(button);}
 render('Todas');
+})();

@@ -7,7 +7,8 @@
   <title>Sesiones · Mica Energía</title>
   <link rel="icon" type="image/png" href="assets/brand/favicon.png">
   <link rel="apple-touch-icon" href="assets/brand/favicon.png">
-  <script type="module" src="scripts/catalog.js"></script>
+  <script defer src="scripts/data/services.js"></script>
+  <script defer src="scripts/catalog.js"></script>
   <style>
     :root { color-scheme: light; --marfil: #F7F2E7; --verde: #465747; --salvia: #A8B59A; --tierra: #B99B7A; }
     * { box-sizing: border-box; }
@@ -30,8 +31,56 @@
   <main>
     <header><img class="logo" src="assets/brand/logo.png" alt="Mica · Energía" width="2170" height="725"><nav aria-label="Navegación principal"><a href="#catalogo">Sesiones</a><a href="https://www.instagram.com/mica.energia/">Contacto</a></nav></header>
     <section class="intro"><p class="eyebrow">Terapias energéticas y místicas</p><h1>¿Qué querés transformar?</h1><p>Limpieza y desbloqueo energético, armonización y apertura de caminos. Conocé las sesiones y hablemos de lo que querés trabajar.</p><a href="#catalogo">Explorar sesiones</a></section>
-    <section id="catalogo" aria-labelledby="catalog-title"><p class="eyebrow">El catálogo</p><h2 id="catalog-title">Sesiones para conocer</h2><div id="filters" role="group" aria-label="Filtrar por categoría"></div><p id="results" role="status" aria-live="polite"></p><div id="services"></div><noscript><p>Activá JavaScript para explorar las fichas o consultá las sesiones por Instagram.</p></noscript></section>
-    <footer><a href="https://www.instagram.com/mica.energia/">Consultar por Instagram</a><p class="development">Esta página está en desarrollo. Gracias por tu paciencia. Si encontrás algo para mejorar, <a href="https://www.instagram.com/mica.energia/">escribinos por Instagram</a>.</p></footer>
+
+        <section class="recognition" aria-labelledby="recognition-title">
+      <div><p class="eyebrow">¿Te pasa algo de esto?</p><h2 id="recognition-title">Cuando sentís que algo necesita cambiar.</h2><p>Si sentís que es momento de soltar, avanzar o empezar a sentirte diferente, te invito a que conversemos sobre lo que estás viviendo y lo que querés transformar.</p></div>
+      <ul class="situations"><li>Sentís que estás estancada.</li><li>Tenés cansancio emocional.</li><li>Algo te preocupa constantemente.</li><li>Sentís que necesitás soltar.</li><li>Querés empezar a sentirte diferente.</li></ul>
+      <p class="recognition-close">Contame qué querés trabajar y conozcamos qué propuesta de armonización energética se acerca a lo que estás buscando.</p>
+    </section>
+    <section id="catalogo" aria-labelledby="catalog-title">
+      <p class="eyebrow">Mis sesiones</p><h2 id="catalog-title">Encontrá la sesión que estás buscando.</h2>
+      <div id="filters" role="group" aria-label="Filtrar por categoría"></div><p id="results" role="status" aria-live="polite"></p>
+      <div id="services">
+        <article class="card" id="vinculo">
+          <p class="category">Sesiones combinadas y vínculos</p><h3>Sesión de vínculo (para dos personas)</h3>
+          <p>Una sesión energética para armonizar la energía de un vínculo y acompañar sus procesos.</p><p class="modality">A distancia · Devolución por WhatsApp</p>
+          <details><summary>Ver más</summary>
+            <p>Una sesión energética para armonizar la energía de un vínculo y acompañar los procesos que hoy necesitan mayor equilibrio, comprensión y fluidez.</p>
+            <h4>A quién está dirigida</h4><p>A vínculos de pareja, familiares, amistades y relaciones laborales. Ambas personas deben estar de acuerdo en realizar el trabajo.</p>
+            <h4>Qué se trabaja</h4><ul><li>La energía individual de cada persona.</li><li>La energía compartida del vínculo.</li><li>Bloqueos o tensiones energéticas presentes.</li><li>Patrones que pueden estar afectando la relación.</li><li>Armonización energética del vínculo.</li><li>Integración de nuevas posibilidades energéticas para el proceso.</li></ul>
+            <h4>Cómo se realiza</h4><p>A través de la Mesa Cuántica Energética, a distancia, con devolución mediante audio de WhatsApp.</p>
+            <h4>Datos necesarios</h4><p>Nombre completo y fecha de nacimiento de ambas personas.</p>
+            <h4>Condición importante</h4><p>Ambas personas deben estar de acuerdo en realizar la sesión.</p>
+            <a href="https://www.instagram.com/mica.energia/">Consultar por Instagram</a>
+          </details>
+        </article>
+        <article class="card" id="bichijos">
+          <p class="category">Familia y animales</p><h3>Limpieza energética para bichijos</h3>
+          <p>Una propuesta de armonización energética complementaria para animales de compañía, a distancia.</p><p class="modality">A distancia · Devolución por WhatsApp</p>
+          <details><summary>Ver más</summary>
+            <p>Una herramienta de armonización energética complementaria para perros, gatos, aves, peces y otros animales de compañía.</p>
+            <h4>Qué se trabaja</h4><p>Trabajo sobre bloqueos energéticos, nerviosismo, miedos, vitalidad, procesos emocionales y armonización de espacios compartidos.</p>
+            <h4>Cómo se realiza</h4><p>Con tabla de radiestesia, péndulo, cristales y códigos de luz.</p>
+            <h4>Etapas de la sesión</h4><ul><li>Lectura energética.</li><li>Detección de bloqueos.</li><li>Limpieza y armonización.</li><li>Apertura de caminos energéticos.</li><li>Fortalecimiento y equilibrio vibratorio.</li><li>Sellado y protección energética.</li></ul>
+            <h4>Modalidad y devolución</h4><p>A distancia: el animal no necesita estar presente ni modificar su rutina. Recibís un audio por WhatsApp con información de la lectura, aspectos identificados, trabajo realizado y recomendaciones de acompañamiento.</p>
+            <h4>Datos necesarios</h4><ul><li>Nombre completo del animal, incluido apellido.</li><li>Fecha de nacimiento, si se conoce.</li><li>Fotografía.</li><li>Contexto y motivo de consulta.</li><li>Número de WhatsApp.</li></ul>
+            <h4>Importante</h4><p>No reemplaza la atención veterinaria ni los tratamientos indicados por profesionales. No existe una cantidad obligatoria de sesiones.</p>
+            <a href="https://www.instagram.com/mica.energia/">Consultar por Instagram</a>
+          </details>
+        </article>
+      </div>
+    </section>
+    <section class="tools" aria-labelledby="tools-title">
+      <p class="eyebrow">Mis herramientas</p><h2 id="tools-title">Distintas formas de trabajar con tu energía.</h2>
+      <p class="tools-intro">Trabajo con runas, péndulo, mesa cuántica y limpiezas con piedras y sales. Cada propuesta tiene su enfoque: si querés saber qué herramientas utilizo en una sesión, escribime y te cuento.</p>
+      <div class="tool-grid">
+        <article><h3>Runas</h3><p>Son una de las herramientas místicas con las que trabajo. Si te interesa conocer esta propuesta, escribime y te cuento cómo es el encuentro.</p></article>
+        <article><h3>Péndulo</h3><p>Lo utilizo en mis prácticas de radiestesia y armonización energética. En la sesión para bichijos, trabajo con una tabla de radiestesia, cristales y códigos de luz.</p></article>
+        <article><h3>Mesa cuántica energética</h3><p>En la sesión de vínculo, trabajo con esta herramienta sobre la energía individual de cada persona y la energía compartida de la relación.</p></article>
+        <article><h3>Piedras y sales</h3><p>Las incorporo en mis propuestas de limpieza energética. Podés consultarme cómo las utilizo y qué modalidad tiene cada trabajo.</p></article>
+      </div>
+    </section>
+    <footer><a href="https://www.instagram.com/mica.energia/">Consultar por Instagram</a><p class="development">Esta página está en desarrollo. Gracias por tu paciencia. Si encontrás algo para mejorar, <a href="https://www.instagram.com/mica.energia/">escribime por Instagram</a>.</p></footer>
   </main>
 </body>
 </html>

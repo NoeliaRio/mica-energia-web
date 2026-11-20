@@ -7,7 +7,7 @@ Primera versión de presentación y catálogo de Mica · Energía. `index.html` 
 - [Contexto y decisiones vigentes](Mica_Energia_Contexto_Proyecto.md).
 - [Propuesta técnica, carpetas y ejecución local prevista](docs/Propuesta_Primera_Version.md).
 
-Los servicios están separados en `scripts/data/services.js`; el comportamiento está en `scripts/catalog.js` y la presentación en `styles/site.css`. No hay dependencias de producción que instalar. Abrir mediante un servidor HTTP para usar los módulos JavaScript, por ejemplo la extensión Live Server de VS Code. Las fuentes Cormorant Garamond y Lato se cargan desde Google Fonts con fuentes locales de respaldo.
+Los servicios están separados en `scripts/data/services.js`; el comportamiento está en `scripts/catalog.js` y la presentación en `styles/site.css`. No hay dependencias de producción que instalar. Los scripts clásicos con `defer` permiten usar los filtros incluso abriendo `index.html` directamente. También se puede usar un servidor HTTP, como Live Server de VS Code. Sin JavaScript, las fichas completas siguen disponibles en el HTML. Las fuentes Cormorant Garamond y Lato se cargan desde Google Fonts con fuentes locales de respaldo.
 
 No se publicará ni se modificará la configuración remota sin autorización.
 

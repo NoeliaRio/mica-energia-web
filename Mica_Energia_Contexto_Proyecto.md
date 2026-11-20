@@ -1,6 +1,19 @@
 # Mica · Energía — Contexto vigente de la primera versión
 
-Actualizado: 10 de noviembre de 2026, después de la reunión con la clienta.
+Actualizado: 19 de noviembre de 2026, con material adicional de Instagram aportado por la desarrolladora.
+
+## Comunicación del inicio — material nuevo
+
+- Prioridad de contenido: las sesiones son el producto principal. Orden del inicio: bienvenida breve, catálogo de servicios, situaciones con las que puede identificarse el lector, herramientas y contacto. Las herramientas explican el trabajo y no reemplazan ni desplazan el catálogo.
+- Las dos tarjetas conocidas también se incluyen en el HTML inicial para que sean visibles sin JavaScript o al abrir el archivo local. JavaScript amplía los detalles y habilita los filtros a partir de los datos separados.
+
+- Voz editorial acordada: Mica habla en primera persona singular al visitante, con voseo rioplatense. Usar «trabajo», «te invito», «contame» y «escribime»; evitar explicaciones del tipo «Mica utiliza» o «en sus publicaciones, Mica habla». Es una adaptación de voz, sin agregar promesas, credenciales ni información nueva.
+
+- Bio aportada: «Mica | terapias energéticas y místicas», operadora de mesa cuántica energética, Tameana y Reiki; limpieza y desbloqueo energético, apertura de caminos; «¿Qué querés transformar?».
+- La bienvenida utiliza «Terapias energéticas y místicas» y «¿Qué querés transformar?». El párrafo introductorio es una adaptación editorial basada en esa bio.
+- Nueva captura aportada: Mica habla de sentirse estancada, cansancio emocional, preocupación constante, necesidad de soltar y ganas de empezar a sentirse diferente. Presentar estas situaciones como motivos para conversar con ella, sin prometer resultados ni presentarlas como indicaciones clínicas.
+- La desarrolladora confirmó que utiliza runas, péndulo, mesa cuántica y limpiezas con piedras y sales. El inicio presenta esas herramientas; falta información específica del enfoque de runas y del procedimiento con piedras y sales. No inventar sus efectos, pasos ni modalidades.
+- Catálogo parcial de dos servicios autorizado para la primera publicación. El catálogo completo de 11 sigue pendiente. Logo y favicon originales ya incorporados, sin modificaciones, en `assets/brand/`.
 
 Esta actualización reemplaza los estados pendientes que contradiga del registro histórico que figura más abajo. La guía HTML de octubre conserva su función de documento de reunión y no es la especificación vigente de desarrollo.
 
